@@ -345,10 +345,10 @@ jobs:
             ${{ env.DEVICE }}
 
             Kernel:
-            https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150
+            ${{ env.KERNEL_SOURCE }}
 
             AnyKernel3:
-            https://github.com/itsshashanksp/AnyKernel3
+            ${{ env.CUSTOM_ANYKERNEL3_SOURCE }}
 
             KernelSU:
             https://github.com/tiann/KernelSU/releases/tag/${{ env.KERNELSU_TAG }}
